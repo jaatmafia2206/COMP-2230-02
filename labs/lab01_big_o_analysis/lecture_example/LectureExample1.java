@@ -1,9 +1,10 @@
-public class LectureExample {
+public class LectureExample1 {
     public static void main(String[] args) {
         int n = 10; // Input size, can be changed to test different values
 
         // Initialize total to 0: 1 operation
         int total = 0;
+clear
 
         // Loop from i=0 to n-1: n iterations
         for (int i = 0; i < n; i++) {
