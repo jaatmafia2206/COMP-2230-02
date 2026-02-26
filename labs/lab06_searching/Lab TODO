@@ -1,0 +1,47 @@
+# COMP 2230 – Data Structures & Algorithm Analysis
+## Lab: Searching Algorithms in Java
+
+### Instructor: Shivani Tyagi
+
+---
+
+## Lab Objective
+In this lab, students will implement and analyze two searching algorithms:
+- Linear Search
+- Binary Search
+
+Students will compare the number of comparisons and execution time for each algorithm and understand how algorithm efficiency changes with larger datasets.
+
+---
+
+## Activities
+
+### 1. Implement Linear Search
+- Write a method `linearSearch(int[] arr, int target)` that searches for a target value in an array.
+- Return the index of the element if found; otherwise, return -1.
+
+### 2. Implement Binary Search
+- Write a method `binarySearch(int[] arr, int target)` that searches a **sorted** array.
+- Return the index of the element if found; otherwise, return -1.
+- Ensure the array is sorted before calling this method.
+
+### 3. Compare the Algorithms
+- Create an array of integers.
+- Search for a number using both Linear and Binary Search.
+- Count the number of comparisons.
+- Measure execution time using `System.nanoTime()`.
+
+---
+
+## Discussion Questions
+1. Which algorithm required more comparisons?
+2. Why must Binary Search use a sorted array?
+3. What happens if the array size increases to 1,000,000?
+4. Which algorithm would you choose for very large datasets?
+
+---
+
+## Submission
+- Implement all methods in the provided Java file `SearchLab.java`.
+- Test your methods using the `main` method.
+- Submit the completed Java file by the end of the lab session.
