@@ -14,11 +14,15 @@ public class CustomSorting {
             System.out.print(num + " ");
         }
 
-        // TO DO TRY WITH OTHER EXAMPLE AND SORT IN ASCENDING ORDER.
+        // try with another example and sort in ascending order
         String[] words = {"banana", "apple", "grape", "orange"};
-        // TO DO USE COMPARATOR TO SORT IN ASCENDING ORDER.
-         
-        
+        // use comparator to sort in ascending order
+        Arrays.sort(words, new Comparator<String>() {
+            @Override
+            public int compare(String a, String b) {
+                return a.compareTo(b); // ascending order
+            }
+        });
 
         for (String word : words) {
             System.out.print(word + " ");
